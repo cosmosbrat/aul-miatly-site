@@ -516,3 +516,5 @@ ul li {
   .stay-card{ grid-column: span 12; }
   .stay-card--image{ min-height: 320px; }
 }
+
+body { outline: 6px solid red !important; }
