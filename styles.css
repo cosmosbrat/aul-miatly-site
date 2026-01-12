@@ -360,3 +360,29 @@ ul li {
   .stay-grid{ grid-template-columns: 1fr; }
   .stay-list--two{ grid-template-columns: 1fr; }
 }
+
+/* ===== РОВНАЯ СЕТКА КАРТОЧЕК РАЗМЕЩЕНИЯ ===== */
+.stay-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  align-items: stretch;
+}
+
+@media (max-width: 980px){
+  .stay-grid{ grid-template-columns: 1fr; }
+}
+
+/* Карточка всегда одной высоты и “правильно дышит” */
+.stay-card{
+  display: flex;
+  flex-direction: column;
+  min-height: 360px;           /* можешь поднять до 380-420 если хочешь “дороже” */
+}
+
+.stay-card .stay-actions{
+  margin-top: auto;            /* прижимаем кнопки вниз */
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
