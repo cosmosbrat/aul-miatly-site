@@ -58,15 +58,13 @@ body {
 
 /* ПЕРВЫЙ ЭКРАН */
 .hero {
-  background: linear-gradient(
-    rgba(36, 56, 46, 0.6),
-    rgba(36, 56, 46, 0.6)
-  );
-  padding: 90px 0;
+  background:
+    linear-gradient(rgba(36, 56, 46, 0.45), rgba(36, 56, 46, 0.55)),
+    url("images/bg.jpg") center/cover no-repeat;
+  padding: 120px 0;
   text-align: center;
   color: #fff;
 }
-
 .hero h1 {
   font-size: 42px;
   margin-bottom: 10px;
