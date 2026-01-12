@@ -255,3 +255,16 @@ ul li {
   border:1px solid #e6e1d7;
   background: #FBFBF9;
 }
+
+/* === FIX: аккуратные отступы в секциях === */
+.section{
+  padding: 56px 0;
+}
+
+.section--sand{
+  background: #F6F1E6;
+}
+
+#stay{
+  padding-top: 28px;
+}
