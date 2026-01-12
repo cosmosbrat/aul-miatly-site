@@ -60,72 +60,70 @@
 </div>
 </section>
   
-<section class="section section--sand" id="stay">
+<!-- РАЗМЕЩЕНИЕ -->
+<section class="stay-hero" id="stay">
+  <div class="stay-hero__bg"></div>
+
+  <div class="container stay-hero__content">
+    <div class="kicker">РАЗМЕЩЕНИЕ</div>
+    <h2 class="stay-hero__title">Коттеджи у реки и гостиничные номера</h2>
+    <p class="stay-hero__lead">
+      Тишина, чистый воздух и вид на горы. Выберите формат отдыха — для двоих, семьи или компании.
+    </p>
+
+    <div class="stay-hero__facts">
+      <div class="fact"><strong>Коттедж</strong><span>до 5 гостей • терраса</span></div>
+      <div class="fact"><strong>Номера</strong><span>до 5 гостей • балкон</span></div>
+      <div class="fact"><strong>Стандарт+</strong><span>до 6 гостей • балкон</span></div>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn btn--primary" href="#book">Забронировать</a>
+      <a class="btn btn--ghost" href="#map">Как добраться</a>
+    </div>
+  </div>
+</section>
+
+<!-- НОМЕРА И КОТТЕДЖИ (КАРТОЧКИ) -->
+<section class="section section--sand" aria-label="Варианты размещения">
   <div class="container">
-
     <div class="section-head">
-      <div class="kicker">РАЗМЕЩЕНИЕ</div>
+      <div class="kicker">ВАРИАНТЫ</div>
       <h2>Выберите формат отдыха</h2>
-      <p class="muted">
-        Коттеджи у реки и гостиничные номера: Стандарт, Комфорт и Стандарт+.
-        Подскажем лучший вариант под ваш состав.
-      </p>
-
-      <div class="cta-row">
-        <a class="btn btn--primary" href="#book">Забронировать</a>
-        <a class="btn btn--ghost" href="#cafe">Кафе и меню</a>
-        <a class="btn btn--ghost" href="#map">Как добраться</a>
-      </div>
+      <p class="muted">Комфортные варианты для пары, семьи и компании. Всё — с аккуратной отделкой и спокойной атмосферой.</p>
     </div>
 
     <div class="stay-grid">
-
-      <!-- КОТТЕДЖИ -->
-      <article class="stay-card stay-card--image" style="--bg:url('images/cottage.jpg')">
-        <div class="stay-overlay"></div>
-        <div class="stay-content">
-          <div class="stay-top">
-            <span class="stay-badge">КОТТЕДЖИ</span>
-            <span class="stay-capacity">до 5 гостей</span>
-          </div>
-
-          <h3>Коттедж у реки</h3>
-          <p class="muted">
-            Уютный отдельный домик с террасой — для спокойного отдыха и красивых вечеров у воды.
-          </p>
-
-          <ul class="stay-list">
-            <li>Двуспальная кровать + раскладной диван</li>
-            <li>Терраса для отдыха</li>
-            <li>Холодильник, чайник, посуда, микроволновка</li>
-            <li>Балкон</li>
-          </ul>
-
-          <div class="stay-actions">
-            <a class="btn btn--primary" href="#book">Забронировать</a>
-            <a class="btn btn--ghost" href="#map">Как добраться</a>
-          </div>
+      <!-- КОТТЕДЖ -->
+      <article class="stay-card stay-card--featured">
+        <div class="stay-badge">КОТТЕДЖИ • 2 одинаковых</div>
+        <h3>Коттедж у реки</h3>
+        <p class="muted">
+          Уютный домик у воды: двуспальная кровать и раскладной диван. На террасе — лучший вид на закат и реку.
+        </p>
+        <ul class="stay-list">
+          <li>До 5 гостей (комфортнее 2–4)</li>
+          <li>Терраса для отдыха</li>
+          <li>Холодильник • чайник • посуда • микроволновка</li>
+        </ul>
+        <div class="stay-actions">
+          <a class="btn btn--primary" href="#book">Забронировать коттедж</a>
+          <a class="btn btn--ghost" href="#map">Как добраться</a>
         </div>
       </article>
 
       <!-- СТАНДАРТ -->
       <article class="stay-card">
-        <div class="stay-top">
-          <span class="stay-badge">НОМЕРА</span>
-          <span class="stay-capacity">до 5 гостей</span>
-        </div>
-
+        <div class="stay-badge">НОМЕРА • до 5 гостей</div>
         <h3>Стандарт</h3>
         <p class="muted">
-          Практичный и комфортный вариант для пары или небольшой семьи — всё необходимое для отдыха без лишнего.
+          Идеально для спокойного отдыха вдвоём. Удобная планировка, двуспальная кровать и раскладной диван.
         </p>
-
         <ul class="stay-list">
-          <li>Двуспальная кровать + раскладной диван</li>
+          <li>До 5 гостей (оптимально 2–3)</li>
           <li>Балкон</li>
-          <li>Удобно для 2 гостей (можно с детьми)</li>
+          <li>Душ / санузел • кондиционер • Wi-Fi</li>
         </ul>
-
         <div class="stay-actions">
           <a class="btn btn--primary" href="#book">Забронировать</a>
           <a class="btn btn--ghost" href="#map">Как добраться</a>
@@ -133,23 +131,17 @@
       </article>
 
       <!-- КОМФОРТ -->
-      <article class="stay-card stay-card--featured">
-        <div class="stay-top">
-          <span class="stay-badge">НОМЕРА</span>
-          <span class="stay-capacity">до 5 гостей</span>
-        </div>
-
+      <article class="stay-card">
+        <div class="stay-badge">НОМЕРА • до 5 гостей</div>
         <h3>Комфорт</h3>
         <p class="muted">
-          Просторнее и спокойнее по ощущению — отличный выбор для семьи, когда хочется больше воздуха и уюта.
+          Больше пространства и ощущение воздуха — отличный выбор для семьи. Двуспальная кровать и раскладной диван.
         </p>
-
         <ul class="stay-list">
-          <li>Двуспальная кровать + раскладной диван</li>
+          <li>До 5 гостей (оптимально 3–4)</li>
           <li>Балкон</li>
-          <li>Больше пространства для семейного отдыха</li>
+          <li>Душ / санузел • кондиционер • Wi-Fi</li>
         </ul>
-
         <div class="stay-actions">
           <a class="btn btn--primary" href="#book">Забронировать</a>
           <a class="btn btn--ghost" href="#map">Как добраться</a>
@@ -158,28 +150,21 @@
 
       <!-- СТАНДАРТ+ -->
       <article class="stay-card">
-        <div class="stay-top">
-          <span class="stay-badge">НОМЕРА</span>
-          <span class="stay-capacity">до 6 гостей</span>
-        </div>
-
+        <div class="stay-badge">НОМЕРА • до 6 гостей</div>
         <h3>Стандарт+</h3>
         <p class="muted">
-          Большой номер для компании или семьи. Две планировки — обе рассчитаны на комфортное размещение до 6 гостей.
+          Просторный номер для семьи или компании. Две планировки — обе рассчитаны на комфортное размещение до 6 гостей.
         </p>
-
         <ul class="stay-list">
-          <li>Планировка A: 3 односпальные + раскладной диван</li>
-          <li>Планировка B: двуспальная + односпальная + раскладной диван</li>
+          <li>До 6 гостей</li>
           <li>Балкон</li>
+          <li>2 варианта планировки (на месте уточним)</li>
         </ul>
-
         <div class="stay-actions">
           <a class="btn btn--primary" href="#book">Забронировать</a>
           <a class="btn btn--ghost" href="#map">Как добраться</a>
         </div>
       </article>
-
     </div>
   </div>
 </section>
