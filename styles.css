@@ -54,6 +54,7 @@ body {
 .btn--primary {
   background: #24382E;
   color: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
 /* ПЕРВЫЙ ЭКРАН */
@@ -69,13 +70,15 @@ body {
   color: #fff;
 }
 .hero h1 {
-  font-size: 42px;
-  margin-bottom: 10px;
+  font-size: 44px;
+  margin-bottom: 12px;
+  text-shadow: 0 6px 20px rgba(0,0,0,0.35);
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 19px;
   opacity: 0.95;
+  text-shadow: 0 4px 14px rgba(0,0,0,0.35);
 }
 
 /* СЕКЦИИ */
